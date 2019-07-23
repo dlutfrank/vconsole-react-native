@@ -1,0 +1,25 @@
+{
+  "name": "vconsole-react-native",
+  "version": "1.0.4",
+  "description": "display log in react native ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/wangmerry/vconsole-react-native.git/issues",
+    "email": "sallyywang@tencent.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wangmerry/vconsole-react-native.git"
+  },
+  "keywords": [
+    "react-native",
+    "console",
+    "log",
+    "development"
+  ],
+  "author": "sallyywang",
+  "license": "MIT"
+}
