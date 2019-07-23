@@ -6,12 +6,12 @@ react native开发中用于在开发和测试环境查看log的组件，支持�
 ## 使用方法
 * 安装
 ```js
-$ tnpm install @tencent/vconsole-react-native --save
+$ npm install vconsole-react-native --save
 ```
 
 * RN页面之前调用如下方法：
 ```js
-let RNVConsole = require('@tencent/vconsole-react-native').showLogWhenDev();
+let RNVConsole = require('vconsole-react-native').showLogWhenDev();
 ```
 * 在调用页面的根组件下添加 *{RNVConsole}*，（不建议RNVConsole的父组件中包含ScrollView，避免定位问题。建议根组件的最后添加，避免层级问题）
 
